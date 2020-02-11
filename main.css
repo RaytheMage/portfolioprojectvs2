@@ -58,47 +58,16 @@ nav ul li a:hover {
 }
 
 /* projects */
-.twocolumns {
+.allprojects {
   display: flex;
   flex-flow: row wrap;
   flex-direction: row;
   justify-content: center;
   }
 
-.recent {
+.video {
   display: flex;
   flex-direction: column;
-}
-
-.twoimages {
-  display: flex;
-  flex-flow: wrap;
-  flex-direction: row;
-  justify-content: center;
-}
-
-/* .bottomtwoimages {
-  display: flex;
-  flex-direction: column;
-} */
-
-.digitalcinema {
-  display: flex;
-  flex-direction: column;
-}
-
-.overview {
-  display: flex;
-  flex-flow: wrap;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.digitalmediaprototype {
-  display: flex;
-  flex-flow: wrap;
-  flex-direction: row;
-  justify-content: center;
 }
 
 .work-header {
@@ -120,13 +89,6 @@ iframe {
 
 .project-title {
   padding-bottom: 25px;
-}
-
-/* starwars js */
-
-.movie div {
-  border: 2px solid green;
-  width: 300px
 }
 
 /* contact */
