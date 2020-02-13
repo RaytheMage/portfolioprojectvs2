@@ -20,6 +20,10 @@ body {
   background-color: #efe7e5;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Nav */
 nav {
   margin: 0;
@@ -108,19 +112,17 @@ iframe {
 .contact-details {
   display: inline-block;
   font-weight: bold;
-  margin: 0 35px 45px 35px;
+  margin: 0 30px 45px 30px;
   list-style-type: none;
   border: 10px solid #EFE7E5;
   border-radius: 100%;
-  width: 100px;
-  height: 100px;
-  line-height: 100px;
+  width: 125px;
+  height: 125px;
+  line-height: 125px;
   background: #EFE7E5;
   color: #9C1F20;
   text-decoration: none;
 }
-
-
 
 /* footer */
 footer {
