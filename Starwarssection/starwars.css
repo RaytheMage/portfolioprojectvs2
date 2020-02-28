@@ -10,3 +10,10 @@ a > img {
     height: 18rem;
     margin: 4px;
 }
+
+button {
+    font-size: 2rem;
+    background-color: teal;
+    border-radius: 10px;
+    padding: 10px;
+}
