@@ -73,4 +73,4 @@ function populateDOM(characters) {
 }
 
 
-// adding a testing comment for commit
+// not sure what I did but I think it worked
