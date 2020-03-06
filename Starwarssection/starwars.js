@@ -71,3 +71,6 @@ function populateDOM(characters) {
     gallery.appendChild(anchorWrap)
 })
 }
+
+
+// adding a testing comment for commit
