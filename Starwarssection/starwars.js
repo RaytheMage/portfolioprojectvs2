@@ -5,7 +5,7 @@ import { species } from './Data/species.js'
 import { starships } from './Data/starships.js'
 import { vehicles } from './Data/vehicles.js'
 
-const greetingDiv = document.querySelector('.greeting')
+const gallery = document.querySelector('.greeting')
 const maleButton = document.querySelector('#male')
 const femaleButton = document.querySelector('#female')
 const otherButton = document.querySelector('#other')
@@ -30,8 +30,6 @@ otherButton.addEventListener('click', event => {
     populateDOM(otherCharacters)
 })
 
-// 'url': https://swapi.co/api/people/23/
-
 function getCharNumber(url){
 let end = url.lastIndexOf('/')
 let start = end - 2
@@ -41,7 +39,10 @@ if(url.charAt(start) === '/') {
 return url.slice(start, end)
 }
 
-// getCharNumber("https://swapi.co/api/people/1/")
+function removeChildren(element) {
+    while (element.firstChild) {
+    element.removeChild(element.firstChild)
+}}
 
 function populateDOM(characters) {
     characters.forEach(person => {
@@ -67,6 +68,6 @@ function populateDOM(characters) {
     })
 
     anchorWrap.appendChild(imageItem)
-    greetingDiv.appendChild(anchorWrap)
+    gallery.appendChild(anchorWrap)
 })
 }
