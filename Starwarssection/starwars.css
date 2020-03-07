@@ -1,10 +1,10 @@
-:root {
+/* :root {
     box-sizing: border-box;
 }
 
 body {
     background-color: steelblue;
-}
+}*/
 
 a > img {
     height: 18rem;
@@ -17,3 +17,66 @@ button {
     border-radius: 10px;
     padding: 10px;
 }
+
+/* {
+white: #EFE7E5;
+deep dark red: #3D0103;
+grey: #B0ACAB;
+red: #9C1F20;
+Black: #1C191B;
+} */
+
+/* Body */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #1c191b;
+    background-color: #efe7e5;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Nav */
+  nav {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul {
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    background-color: #3d0103;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding: 30px;
+    margin-right: 20px;
+    color: #efe7e5;
+  }
+  
+  nav ul li a {
+    color: #efe7e5;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #b0acab;
+  }
+  
+  #welcome-section {
+    display: block;
+    padding-top: 45vh;
+    min-height: 55vh;
+    color: #efe7e5;
+    background-color: #3d0103;
+  }
