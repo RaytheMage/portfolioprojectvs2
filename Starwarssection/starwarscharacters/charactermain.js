@@ -1,11 +1,10 @@
-import { films } from './Data/films.js'
-import { people } from './Data/people.js'
-import { planets } from './Data/planets.js'
-import { species } from './Data/species.js'
-import { starships } from './Data/starships.js'
-import { vehicles } from './Data/vehicles.js'
+import { films } from '../Data/films.js'
+import { people } from '../Data/people.js'
+import { planets } from '../Data/planets.js'
+import { species } from '../Data/species.js'
+import { vehicles } from '../Data/vehicles.js'
 
-const gallery = document.querySelector('.greeting')
+const gallery = document.querySelector('.gallery')
 const maleButton = document.querySelector('#male')
 const femaleButton = document.querySelector('#female')
 const otherButton = document.querySelector('#other')
@@ -44,7 +43,10 @@ function removeChildren(element) {
     element.removeChild(element.firstChild)
 }}
 
+
+
 function populateDOM(characters) {
+    removeChildren(gallery)
     characters.forEach(person => {
 
     // need to extract number from person.url
