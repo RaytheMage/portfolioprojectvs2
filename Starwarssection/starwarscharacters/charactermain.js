@@ -1,8 +1,5 @@
-import { films } from '../Data/films.js'
 import { people } from '../Data/people.js'
-import { planets } from '../Data/planets.js'
-import { species } from '../Data/species.js'
-import { vehicles } from '../Data/vehicles.js'
+import { getLastNumber, removeChildren } from '../../utils'
 
 const gallery = document.querySelector('.gallery')
 const maleButton = document.querySelector('#male')
@@ -29,28 +26,12 @@ otherButton.addEventListener('click', event => {
     populateDOM(otherCharacters)
 })
 
-function getCharNumber(url){
-let end = url.lastIndexOf('/')
-let start = end - 2
-if(url.charAt(start) === '/') {
-    start++
-}
-return url.slice(start, end)
-}
-
-function removeChildren(element) {
-    while (element.firstChild) {
-    element.removeChild(element.firstChild)
-}}
-
-
-
 function populateDOM(characters) {
     removeChildren(gallery)
     characters.forEach(person => {
 
     // need to extract number from person.url
-    let charNum = getCharNumber(person.url)
+    let charNum = getLastNumber(person.url)
 
     let anchorWrap = document.createElement('a')
     anchorWrap.href = '#'
@@ -67,12 +48,10 @@ function populateDOM(characters) {
 
     // add some way to handle user clicks on the image
     imageItem.addEventListener('click', (event) => {
+        console.log(event)
     })
 
     anchorWrap.appendChild(imageItem)
     gallery.appendChild(anchorWrap)
 })
 }
-
-
-// not sure what I did but I think it worked
