@@ -1,5 +1,5 @@
 import { people } from '../Data/people.js'
-import { getLastNumber, removeChildren } from '../../utils'
+import { getLastNumber, removeChildren } from '../utils'
 
 const gallery = document.querySelector('.gallery')
 const maleButton = document.querySelector('#male')
