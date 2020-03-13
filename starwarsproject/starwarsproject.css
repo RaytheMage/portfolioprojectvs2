@@ -7,7 +7,7 @@
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     text-align: center;
-    background-color: #efe7e5;
+    background-color: #F9FDFF;
   }
   
   html {
@@ -32,23 +32,23 @@
     display: inline-block;
     padding: 30px;
     margin-right: 20px;
-    color: #efe7e5;
+    color: #F9FDFF;
   }
   
   nav ul li a {
-    color: #efe7e5;
+    color: #F9FDFF;
     text-decoration: none;
   }
   
   nav ul li a:hover {
-    color: #b0acab;
+    color: #D2E2D5;
   }
 
   .intro {
     display: block;
     padding-top: 20vh;
     min-height: 30vh;
-    color: #efe7e5;
+    color: #F9FDFF;
     background-image: url(data/starwarsproject_images/Star-Background.jpg);
   }
 
@@ -63,7 +63,7 @@
 .quote {
   margin-top: 100px;
   margin-bottom: 75px;
-  color: #9c1f20;
+  color: #00001D;
 }
 
 .project-pic {
@@ -79,6 +79,14 @@ iframe {
 
 .project-title {
   padding-bottom: 25px;
+}
+
+/* footer */
+footer {
+  background-color: #00001D;
+  Color: #F9FDFF;
+  padding-top: 25px;
+  padding-bottom: 50px;
 }
 
 
