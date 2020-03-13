@@ -5,8 +5,37 @@
 header, footer {
     display: flex;
     justify-content: center;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
+
+/* .navbar {
+    margin: 0;
+    padding: 0;
+  }
+
+.navbar ul {
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    background-color: #3d0103;
+  }
+  
+.navbar ul li {
+    display: inline-block;
+    padding: 30px;
+    margin-right: 20px;
+    color: #efe7e5;
+  }
+  
+.navbar ul li a {
+    color: #efe7e5;
+    text-decoration: none;
+  }
+  
+.navbar ul li a:hover {
+    color: #b0acab;
+  } */
+
 
 a {
     text-decoration: none;
