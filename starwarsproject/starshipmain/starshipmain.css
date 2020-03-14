@@ -1,56 +1,122 @@
 :root {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
 }
 
-header, footer {
-    display: flex;
-    justify-content: center;
-    font-size: 1.5rem;
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+  background-color: #F9FDFF;
 }
 
-/* .navbar {
-    margin: 0;
-    padding: 0;
-  }
-
-.navbar ul {
-    text-align: right;
-    position: fixed;
-    width: 100%;
-    background-color: #3d0103;
-  }
-  
-.navbar ul li {
-    display: inline-block;
-    padding: 30px;
-    margin-right: 20px;
-    color: #efe7e5;
-  }
-  
-.navbar ul li a {
-    color: #efe7e5;
-    text-decoration: none;
-  }
-  
-.navbar ul li a:hover {
-    color: #b0acab;
-  } */
-
-
-a {
-    text-decoration: none;
-    font-size: 1.5rem;
+html {
+  scroll-behavior: smooth;
 }
 
-li {
-list-style: none;
+/* Nav */
+nav {
+  margin: 0;
+  padding: 0;
 }
+
+nav ul {
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  /* background-color: #00001D; */
+  background-image: url(../data/starwarsproject_images/Star-Background.jpg);
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 30px;
+  margin-right: 20px;
+  color: #F9FDFF;
+}
+
+nav ul li a {
+  color: #F9FDFF;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #D2E2D5;
+}
+
+.intro {
+  display: block;
+  padding-top: 20vh;
+  min-height: 30vh;
+  color: #F9FDFF;
+  background-image: url(../data/starwarsproject_images/Star-Background.jpg);
+}
+
+  /* shiplist */
 
 .container {
     display: flex;
 }
 
-.nav {
+.ships a {
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.shipList li {
+list-style: none;
+}
+
+.ships {
     border: solid 2px black;
     padding-right: 1rem;
 }
+
+
+
+
+/* footer */
+footer {
+  background-color: #00001D;
+  Color: #F9FDFF;
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+footer a {
+  color: #E47777;
+    text-decoration: none;
+}
+
+footer a:hover {
+  color: #F9FDFF;
+}
+
+/* media query */
+
+  @media only screen and (max-width: 600px) {
+    nav ul {
+      text-align: center;
+    }
+    nav ul li {
+      margin-right: 20px;
+    }
+    .twocolumns {
+      justify-content: space-around;
+    }
+  }
+  
+  @media only screen and (max-width: 367) {
+    nav ul {
+      text-align: center;
+    }
+    nav ul li {
+      margin-right: 0px;
+    }
+    .twocolumns {
+      justify-content: space-around;
+    }
+  }

@@ -1,9 +1,9 @@
 import { starships } from '../Data/starships.js'
-import { getLastNumber, removeChildren, addStarField } from '../utils.js'
+import { getLastNumber, removeChildren,} from '../utils.js'
 
-const nav = document.querySelector('.nav')
+const ships = document.querySelector('.ships')
 
-const navList = document.querySelector('.navList')
+const shipList = document.querySelector('.shipList')
 
 const shipView = document.querySelector('.main')
 
@@ -34,8 +34,8 @@ function populateNav(starships) {
         listItem.textContent = starship.name
 
         anchorWrap.appendChild(listItem)
-        navList.appendChild(anchorWrap)
-        nav.appendChild(navList)
+        shipList.appendChild(anchorWrap)
+        ships.appendChild(shipList)
     })
 }
 
@@ -53,4 +53,4 @@ function populateShipView(shipData) {
 
 populateNav(starships)
 
-addStarField(shipView, 100)
+// addStarField(shipView, 100)

@@ -10,37 +10,41 @@
     </head>
     <body>
         <header>
-            <h1>Starships From Starwars</h1>
-        </header>
-        <!-- <nav>
-            <ul class="navbar">
-                <li>
-                    <a href="../starwarsproject.html">Home</a>
-                </li>
-                <li>
-                    <a href="../starwarscharacters/charactermain.html">Characters</a>
-                </li>
-                <li>
-                    <a href="starshipmain.html">Space Ships</a>
-                </li>
-            </ul>
-        </nav> -->
-        <div class="container">
-            <nav class="nav">
-                <ul class="navList"></ul>
+            <nav>
+                <ul id="navbar">
+                    <li>
+                        <a href="../starwarsproject.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="../starwarscharacters/charactermain.html">Characters</a>
+                    </li>
+                    <li>
+                        <a href="starshipmain.html">Space Ships</a>
+                    </li>
+                </ul>
             </nav>
-
-            <main class="main"></main>
-        </div>
-        <div class="modal">
-            <div class="modal-background"></div>
-            <div class="modal-content">
-              <h1>This ship could not be found.</h1> 
+            <div class="intro">
+                <h1>Starships From Starwars</h1>
             </div>
-            <button class="modal-close is-large" aria-label="close"></button>
-          </div>
+        </header>
+        <main>
+            <div class="container">
+                <div class="ships">
+                    <ul class="shipList"></ul>
+                </div>
+
+                <main class="main"></main>
+            </div>
+            <div class="modal">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                    <h1>This ship could not be found.</h1>
+                </div>
+                <button class="modal-close is-large" aria-label="close"></button>
+            </div>
+        </main>
         <footer>
-            <p>&copy; Rachel Rasmussen 2020</p>
+            <p>Created for Educational Purposes by <a href="https://rachelrasmussenportfolio.netlify.com" target="_blank">Rachel Rasmussen</a> &copy; 2020</p>
         </footer>
         <script src="starshipmain.js" type="module"></script>
     </body>
