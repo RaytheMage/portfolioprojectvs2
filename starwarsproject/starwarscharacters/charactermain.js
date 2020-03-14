@@ -1,5 +1,5 @@
 import { people } from '../Data/people.js'
-import { getLastNumber, removeChildren } from '../utils'
+import { getLastNumber, removeChildren } from '../utils.js'
 
 const gallery = document.querySelector('.gallery')
 const maleButton = document.querySelector('#male')
@@ -39,15 +39,15 @@ function populateDOM(characters) {
     let imageItem = document.createElement('img')
     imageItem.src = `https://starwars-visualguide.com/assets/img/characters/${charNum}.jpg`
 
-    imageItem.addEventListener('error', (event) => {
-        //console.log(`${event.type}: Loading image\n`;
+    imageItem.addEventListener('error', event => {
+        //console.log(`${event.type}: Loading image\n`
         //console.log(event)
         imageItem.hidden = true
         //imageItem.src = '../MyPortfolio_Images/starwarsallcharacters.jpg'
     })
 
     // add some way to handle user clicks on the image
-    imageItem.addEventListener('click', (event) => {
+    imageItem.addEventListener('click', event => {
         console.log(event)
     })
 
