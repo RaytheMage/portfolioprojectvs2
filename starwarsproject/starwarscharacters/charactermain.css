@@ -62,8 +62,9 @@ a > img {
 }
 
 button {
-    font-size: 2rem;
-    background-color: teal;
+    font-size: 1.5rem;
+    background-color: #00001D;
+    color: #F9FDFF;
     border-radius: 10px;
     padding: 10px;
 }
@@ -74,6 +75,15 @@ footer {
   Color: #F9FDFF;
   padding-top: 25px;
   padding-bottom: 50px;
+}
+
+footer a {
+  color: #E47777;
+    text-decoration: none;
+}
+
+footer a:hover {
+  color: #F9FDFF;
 }
 
 

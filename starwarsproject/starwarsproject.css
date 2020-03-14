@@ -66,6 +66,10 @@
   color: #00001D;
 }
 
+.quote h2 {
+  margin-bottom: 15px;
+}
+
 .project-pic {
   max-width: 300px;
   padding: 25px;
@@ -89,6 +93,14 @@ footer {
   padding-bottom: 50px;
 }
 
+footer a {
+  color: #E47777;
+    text-decoration: none;
+}
+
+footer a:hover {
+  color: #F9FDFF;
+}
 
 /* media query */
 
