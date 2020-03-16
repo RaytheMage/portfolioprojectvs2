@@ -56,17 +56,31 @@
   }
 
   /* body */
-a > img {
-    height: 18rem;
-    margin: 4px;
+
+main {
+  min-height: 30vh;
 }
 
-button {
-    font-size: 1.5rem;
+.gender {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 75px;
+}
+
+.gender button {
+    font-size: 24px;
     background-color: #00001D;
     color: #F9FDFF;
     border-radius: 10px;
     padding: 10px;
+    flex-basis: 30%;
+}
+
+.gallery a > img {
+  flex-wrap: wrap;
+    height: 18rem;
+    margin: 4px;
 }
 
 /* footer */
