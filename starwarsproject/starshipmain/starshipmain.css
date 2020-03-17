@@ -59,18 +59,19 @@ nav ul li a:hover {
 
 .container {
     display: flex;
+    height: 600px;
 }
 
 .ships {
   min-width: 25%;
   margin-top: 10px;
-    /* padding-right: 1rem; */
+  overflow-y: scroll;
 }
 
 .ships a {
     text-decoration: none;
     color: #00001D;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .shipList li {
@@ -87,7 +88,7 @@ margin-top: 10px;
 }
 
 .main img {
-  margin-top: 5%;
+  margin-top: 25px;
 }
 
 
