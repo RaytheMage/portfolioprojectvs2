@@ -61,18 +61,33 @@ nav ul li a:hover {
     display: flex;
 }
 
+.ships {
+  min-width: 25%;
+  margin-top: 10px;
+    /* padding-right: 1rem; */
+}
+
 .ships a {
     text-decoration: none;
-    font-size: 1.5rem;
+    color: #00001D;
+    font-size: 18px;
 }
 
 .shipList li {
 list-style: none;
+margin-top: 10px;
 }
 
-.ships {
-    border: solid 2px black;
-    padding-right: 1rem;
+.main {
+  min-width: 75%;
+  justify-content: center;
+  /* background-image: url(../data/starwarsproject_images/Star-Background.jpg); */
+  /* margin: 25px; */
+  background-color: #00001D;
+}
+
+.main img {
+  margin-top: 5%;
 }
 
 

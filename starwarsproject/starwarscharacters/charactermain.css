@@ -64,7 +64,7 @@ main {
 .gender {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   margin: 75px;
 }
 
@@ -73,8 +73,17 @@ main {
     background-color: #00001D;
     color: #F9FDFF;
     border-radius: 10px;
-    padding: 10px;
-    flex-basis: 30%;
+    border: 0px;
+    padding: 10px; 
+    flex-grow: 1;
+}
+
+#female {
+  margin: 0px 25px 0px 25px;
+}
+
+.gender button:hover {
+  color: #D2E2D5;
 }
 
 .gallery a > img {
