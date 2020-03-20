@@ -65,6 +65,7 @@ nav ul li a:hover {
 .ships {
   min-width: 25%;
   margin-top: 10px;
+  margin-bottom: 10px;
   overflow-y: scroll;
 }
 
