@@ -50,16 +50,22 @@ nav ul li a:hover {
 .intro {
   display: block;
   padding-top: 20vh;
-  min-height: 30vh;
-  color: #F9FDFF;
+  min-height: 50vh;
   background-image: url(../data/starwarsproject_images/Star-Background.jpg);
+}
+
+.intro h1 {
+  color: #F9FDFF;
+  font-size: 2em;
+  font-weight: bold;
 }
 
   /* shiplist */
 
-.container {
+.area {
     display: flex;
     height: 600px;
+    margin: 0px;
 }
 
 .ships {
