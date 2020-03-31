@@ -43,11 +43,27 @@
     color: #F4D654;
   }
 
-  .intro {
+  .intro_congress {
     display: block;
     padding-top: 45vh;
     min-height: 55vh;
     background-image: url(Data/Congressprojectimages/US_Capitol_west_side.jpeg);
+    background-size: cover;
+  }
+
+  .intro_rep {
+    display: block;
+    padding-top: 45vh;
+    min-height: 55vh;
+    background-image: url(Data/Congressprojectimages/house_chamber.jpg);
+    background-size: cover;
+  }
+
+  .intro_senate {
+    display: block;
+    padding-top: 45vh;
+    min-height: 55vh;
+    background-image: url(Data/Congressprojectimages/senate_chamber.jpg);
     background-size: cover;
   }
 
