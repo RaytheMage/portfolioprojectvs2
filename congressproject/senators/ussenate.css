@@ -58,26 +58,15 @@
   }
 
 /* Sections */
-.section {
+.senators {
   display: flex;
   flex-flow: row wrap;
   flex-direction: row;
   justify-content: center;
   }
 
-.project-pic {
-  max-width: 300px;
+figure {
   padding: 25px;
-  padding-bottom: 0px;
-}
-
-iframe {
-  padding: 25px;
-  padding-bottom: 0px;
-}
-
-.project-title {
-  padding-bottom: 25px;
 }
 
 /* footer */
