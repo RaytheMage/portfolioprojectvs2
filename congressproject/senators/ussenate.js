@@ -13,4 +13,4 @@ function populateSenatorDiv() {
     main.appendChild(senatorDiv)
 }
 
-populateSenatorDiv
+populateSenatorDiv()

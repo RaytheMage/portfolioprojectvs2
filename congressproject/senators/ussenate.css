@@ -47,7 +47,7 @@
     display: block;
     padding-top: 45vh;
     min-height: 55vh;
-    background-image: url(Data/Congressprojectimages/US_Capitol_west_side.jpeg);
+    background-image: url(../Data/Congressprojectimages/senate_chamber.jpg);
     background-size: cover;
   }
 
