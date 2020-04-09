@@ -7,11 +7,7 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   text-align: center;
-<<<<<<< HEAD
   background-color: #FFFFFF;
-=======
-  background-color: #F9FDFF;
->>>>>>> 362e35c3409bf347903c85e883b640a7f1c53d1d
 }
 
 html {
@@ -28,45 +24,27 @@ nav ul {
   text-align: right;
   position: fixed;
   width: 100%;
-<<<<<<< HEAD
   background-color: #22427A;
-=======
-  /* background-color: #00001D; */
-  background-image: url(data/starwarsproject_images/Star-Background.jpg);
->>>>>>> 362e35c3409bf347903c85e883b640a7f1c53d1d
 }
 
 nav ul li {
   display: inline-block;
   padding: 30px;
   margin-right: 20px;
-<<<<<<< HEAD
   color: #FFFFFF;
 }
 
 nav ul li a {
   color: #FFFFFF;
-=======
-  color: #F9FDFF;
-}
-
-nav ul li a {
-  color: #F9FDFF;
->>>>>>> 362e35c3409bf347903c85e883b640a7f1c53d1d
   text-decoration: none;
 }
 
 nav ul li a:hover {
-<<<<<<< HEAD
   color: #F4D654;
-=======
-  color: #D2E2D5;
->>>>>>> 362e35c3409bf347903c85e883b640a7f1c53d1d
 }
 
 .intro {
   display: block;
-<<<<<<< HEAD
   padding-top: 45vh;
   min-height: 55vh;
   background-image: url(../Data/Congressprojectimages/senate_chamber.jpg);
@@ -81,42 +59,10 @@ nav ul li a:hover {
 
 /* Sections */
 .senators {
-=======
-  padding-top: 20vh;
-  min-height: 30vh;
-  color: #F9FDFF;
-  background-image: url(data/starwarsproject_images/Star-Background.jpg);
-}
-
-/* Sections */
-.section {
->>>>>>> 362e35c3409bf347903c85e883b640a7f1c53d1d
 display: flex;
 flex-flow: row wrap;
 flex-direction: row;
 justify-content: center;
-}
-<<<<<<< HEAD
-
-.project-pic {
-max-width: 300px;
-padding: 25px;
-padding-bottom: 0px;
-}
-
-/* iframe {
-padding: 25px;
-padding-bottom: 0px;
-=======
-
-.quote {
-margin-top: 100px;
-margin-bottom: 75px;
-color: #00001D;
-}
-
-.quote h2 {
-margin-bottom: 15px;
 }
 
 .project-pic {
@@ -132,41 +78,23 @@ padding-bottom: 0px;
 
 .project-title {
 padding-bottom: 25px;
->>>>>>> 362e35c3409bf347903c85e883b640a7f1c53d1d
 }
-
-.project-title {
-padding-bottom: 25px;
-} */
 
 /* footer */
 footer {
-<<<<<<< HEAD
 background-color: #22427A;
 Color: #FFFFFF;
-=======
-background-color: #00001D;
-Color: #F9FDFF;
->>>>>>> 362e35c3409bf347903c85e883b640a7f1c53d1d
 padding-top: 25px;
 padding-bottom: 50px;
 }
 
 footer a {
-<<<<<<< HEAD
 color: #F4D654;
-=======
-color: #E47777;
->>>>>>> 362e35c3409bf347903c85e883b640a7f1c53d1d
   text-decoration: none;
 }
 
 footer a:hover {
-<<<<<<< HEAD
 color: #FFFFFF;
-=======
-color: #F9FDFF;
->>>>>>> 362e35c3409bf347903c85e883b640a7f1c53d1d
 }
 
 /* media query */
@@ -177,9 +105,6 @@ color: #F9FDFF;
   }
   nav ul li {
     margin-right: 20px;
-<<<<<<< HEAD
-  }
-=======
   }
   .twocolumns {
     justify-content: space-around;
@@ -193,23 +118,7 @@ color: #F9FDFF;
   nav ul li {
     margin-right: 0px;
   }
->>>>>>> 362e35c3409bf347903c85e883b640a7f1c53d1d
   .twocolumns {
     justify-content: space-around;
   }
 }
-<<<<<<< HEAD
-
-@media only screen and (max-width: 367) {
-  nav ul {
-    text-align: center;
-  }
-  nav ul li {
-    margin-right: 0px;
-  }
-  .twocolumns {
-    justify-content: space-around;
-  }
-}
-=======
->>>>>>> 362e35c3409bf347903c85e883b640a7f1c53d1d
