@@ -47,42 +47,61 @@
     display: block;
     padding-top: 45vh;
     min-height: 55vh;
-    color: #FCCC01;
     background-image: url(../MyPortfolio_Images/pokemonoriginal.jpg);
     background-size: cover;
   }
 
+  /* .title {
+    background-color: rgba(52, 94, 173, 0.5);
+    color: #FCCC01;
+    padding: 25px 0px 25px 0px;
+  } */
+
 /* Sections */
-.section {
+.pokemonGrid {
   display: flex;
-  flex-flow: row wrap;
-  flex-direction: row;
-  justify-content: center;
-  }
-
-.quote {
-  margin-top: 100px;
-  margin-bottom: 75px;
-  color: #00001D;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.quote h2 {
-  margin-bottom: 15px;
+.scene {
+  width: 200px;
+  height: 260px;
+  border: 1px solid #cccccc;
+  margin: 10px;
+  perspective: 600px;
 }
 
-.project-pic {
-  max-width: 300px;
-  padding: 25px;
-  padding-bottom: 0px;
+.card {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
 }
 
-iframe {
-  padding: 25px;
-  padding-bottom: 0px;
+.card.is-flipped {
+  transform: rotateY(180deg);
 }
 
-.project-title {
-  padding-bottom: 25px;
+.card_face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  backface-visibility: hidden;
+}
+
+.card_face--front {
+  background: red;
+}
+
+.card_face--back {
+  background: blue;
+  transform: rotateY(180deg);
 }
 
 /* footer */
