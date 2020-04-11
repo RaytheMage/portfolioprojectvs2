@@ -15,7 +15,7 @@
   }
   
   /* Nav */
-  nav {
+  /* nav {
     margin: 0;
     padding: 0;
   }
@@ -24,14 +24,14 @@
     text-align: right;
     position: fixed;
     width: 100%;
-    background-color: #00001D;
+    background-color: #345EAD;
   }
   
   nav ul li {
     display: inline-block;
     padding: 30px;
     margin-right: 20px;
-    color: #F9FDFF;
+    color: #FCCC01;
   }
   
   nav ul li a {
@@ -41,14 +41,15 @@
   
   nav ul li a:hover {
     color: #D2E2D5;
-  }
+  } */
 
   .intro {
     display: block;
-    padding-top: vh;
-    min-height: 30vh;
-    color: #F9FDFF;
+    padding-top: 45vh;
+    min-height: 55vh;
+    color: #FCCC01;
     background-image: url(../MyPortfolio_Images/pokemonoriginal.jpg);
+    background-size: cover;
   }
 
 /* Sections */
