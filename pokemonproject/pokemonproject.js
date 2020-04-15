@@ -1,3 +1,4 @@
+
 // Reusable async funtion to fetch data from the provieded URL
 async function getAPIData(url) {
     try {
@@ -10,16 +11,27 @@ async function getAPIData(url) {
 }
 
 // now, use the async getAPIData function
-getAPIData('https://pokeapi.co/api/v2/pokemon/?&limit=25').then((data) => {
+function loadPage() {
+    getAPIData('https://pokeapi.co/api/v2/pokemon/?&limit=25').then((data) => {
     for (const pokemon of data.results) {
         getAPIData(pokemon.url).then((pokeData) => {
             populatePokeCard(pokeData)
         })
     }
 })
+}
 
 let pokemonGrid = document.querySelector('.pokemonGrid')
+let startButton = document.querySelector('#startButton')
+let newButton = document.querySelector('#newButton')
 
+startButton.addEventListener('click', () => {
+    loadPage()
+})
+
+newButton.addEventListener('click', () => {
+    addPokemon()
+})
 
 function populatePokeCard(singlePokemon) {
     let pokeScene = document.createElement('div')
@@ -41,11 +53,24 @@ function populatePokeCard(singlePokemon) {
 function populateCardFront(pokemon) {
     let cardFront = document.createElement('div')
     cardFront.className = 'card_face card_face--front'
-    cardFront.textContent = pokemon.className
     let frontImage = document.createElement('img')
-    frontImage.src = '../images/${pokemon.id}.png'
+    frontImage.src = '../images/${getImageName(pokeman)}.png'
+    
+    let frontLabel = document.createElement('p')
+    frontLabel.textContent = `${pokemon.name.charAt(0).toUpperCase()}${pokemon.name.slice(1)}`
     cardFront.appendChild(frontImage)
+    cardFront.appendChild(frontLabel)
     return cardFront
+}
+
+function getImageName(pokemon) {
+    if (pokemon.id < 10) {
+        return `00${pokemon.id}`
+    } else if (pokemon.id > 9 && pokemon.id < 100) {
+        return `0${pokemon.id}`
+    } else if (pokemon.id > 809) {
+        return `pokeball`
+    }
 }
 
 function populateCardBack(pokemon) {
@@ -61,4 +86,34 @@ function populateCardBack(pokemon) {
     return cardBack
 }
 
-// https://github.com/fanzeyi/pokemon.json/blob/master/images/001.png?raw=true
+class Pokemon {
+    constructor(height, weight, name, abilities) {
+        this.height = height
+        this.weight = weight
+        this.name = name
+        this.abilities = abilities
+        this.id = 900
+    }
+}
+
+function addPokemon() {
+    let Thoremon = new Pokemon(190, 290, 'thoremon',
+    [
+        {
+            ability: {
+                name: 'Thunder Belly'
+            }
+        },
+        {
+            ability: {
+                name: 'Beard Power'
+            }
+        },
+        {
+            ability: {
+                name: 'Rancid Stench'
+            }
+        }
+    ])
+    populatePokeCard(Thoremon)
+}
