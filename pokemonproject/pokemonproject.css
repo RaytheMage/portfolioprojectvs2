@@ -70,6 +70,7 @@
   border: 1px solid #cccccc;
   margin: 10px;
   perspective: 600px;
+  border-radius: 30px;
 }
 
 .card {
@@ -93,6 +94,7 @@
   text-align: center;
   font-weight: bold;
   backface-visibility: hidden;
+  border-radius: 30px;
 }
 
 .card_face--front {
@@ -102,6 +104,10 @@
 .card_face--back {
   background: blue;
   transform: rotateY(180deg);
+}
+
+li {
+  text-align: left;
 }
 
 /* footer */
