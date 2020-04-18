@@ -45,8 +45,8 @@
 
   .intro {
     display: block;
-    padding-top: 45vh;
-    min-height: 55vh;
+    /* padding-top: 35vh; */
+    min-height: 87vh;
     background-image: url(../MyPortfolio_Images/pokemonoriginal.jpg);
     background-size: cover;
   }
@@ -58,10 +58,33 @@
   } */
 
 /* Sections */
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 25px 100px;
+}
+
+button {
+  font-size: 24px;
+  background-color: #2F5ABA;
+  color: #FFC900;
+  border-radius: 10px;
+  border: 0px;
+  padding: 10px;
+  flex-grow: 1;
+  margin: 15px;
+}
+
+button:hover {
+  background-color: #2C1C82;
+}
+
 .pokemonGrid {
+  margin: 0px 100px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .scene {
@@ -108,6 +131,8 @@
 
 li {
   text-align: left;
+  margin: 25px;
+  list-style: inside url('/pokemonproject/pokeimages/pokemon.svg');
 }
 
 /* footer */

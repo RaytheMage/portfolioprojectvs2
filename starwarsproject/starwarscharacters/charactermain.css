@@ -65,10 +65,10 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 75px;
+  margin: 25px 100px;
 }
 
-.gender button {
+button {
     font-size: 24px;
     background-color: #00001D;
     color: #F9FDFF;
@@ -76,13 +76,14 @@ main {
     border: 0px;
     padding: 10px; 
     flex-grow: 1;
+    margin: 10px;
 }
 
-#female {
+/* #female {
   margin: 0px 25px 0px 25px;
-}
+} */
 
-.gender button:hover {
+button:hover {
   color: #D2E2D5;
 }
 
