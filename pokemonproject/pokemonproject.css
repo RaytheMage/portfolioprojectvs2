@@ -132,7 +132,8 @@ button:hover {
 li {
   text-align: left;
   margin: 25px;
-  list-style: inside url('/pokemonproject/pokeimages/pokemon.svg');
+  /* list-style: inside url('/pokemonproject/pokeimages/pokemon.svg'); */
+  list-style: none;
 }
 
 /* footer */

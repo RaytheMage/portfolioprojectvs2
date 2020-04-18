@@ -54,7 +54,9 @@ function populateCardFront(pokemon) {
     let cardFront = document.createElement('div')
     cardFront.className = 'card_face card_face--front'
     let frontImage = document.createElement('img')
-    frontImage.src = '../images/${getImageName(pokeman)}.png'
+    frontImage.src = '/pokeimages/${getImageName(pokeman)}.png'
+
+    // '../images/${getImageName(pokeman)}.png'
     
     let frontLabel = document.createElement('p')
     frontLabel.textContent = `${pokemon.name.charAt(0).toUpperCase()}${pokemon.name.slice(1)}`
@@ -117,3 +119,19 @@ function addPokemon() {
     ])
     populatePokeCard(Thoremon)
 }
+
+        // Code I've added
+// function 
+// removeChildren(element) {
+//     wile (element.firstChild){
+//         element.removeChild(element.firstChild)
+//     } 
+// }
+// function removePokemon() {
+//     removeChildren(pokemonGrid)
+//     singlePokemon.forEach(pokeScene => {
+// let element = document.getElementById("top");
+// while (element.firstChild) {
+//   element.removeChild(element.firstChild);
+// }
+        // Code I've added
