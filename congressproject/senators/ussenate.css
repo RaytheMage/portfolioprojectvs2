@@ -58,7 +58,7 @@ nav ul li a:hover {
 }
 
 /* Sections */
-.senators {
+.senatorsGrid {
 display: flex;
 flex-flow: row wrap;
 flex-direction: row;
@@ -67,6 +67,32 @@ justify-content: center;
 
 figure {
   padding: 25px;
+}
+
+figcaption {
+  display: flex;
+  justify-content: space-around;
+}
+
+.fa-democrat {
+  color: blue;
+}
+
+.fa-republican {
+  color: red;
+}
+
+.fa-star {
+  color: goldenrod;
+}
+
+.progressiveDiv {
+display: flex;
+flex-direction: column;
+}
+
+label {
+  font-size: .75rem;
 }
 
 /* footer */
