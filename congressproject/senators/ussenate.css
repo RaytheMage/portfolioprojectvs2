@@ -58,20 +58,22 @@ nav ul li a:hover {
 }
 
 /* Sections */
-.senatorsGrid {
+
+.senatorGrid {
 display: flex;
-flex-flow: row wrap;
+flex-wrap: wrap;
 flex-direction: row;
 justify-content: center;
 }
 
 figure {
-  padding: 25px;
+  margin: 25px 25px 0px 25px;
 }
 
 figcaption {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 10px 0px;
 }
 
 .fa-democrat {
@@ -86,13 +88,16 @@ figcaption {
   color: goldenrod;
 }
 
-.progressiveDiv {
+.progressDiv {
 display: flex;
 flex-direction: column;
+margin: 0px 25px;
+padding-bottom: 10px;
 }
 
 label {
-  font-size: .75rem;
+  font-size: 12px;
+  text-align: left;
 }
 
 /* footer */

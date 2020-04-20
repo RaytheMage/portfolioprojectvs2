@@ -1,6 +1,6 @@
 import { senators } from '../data/senators.js'
 
-const senatorDiv = document.querySelector('.senators')
+const senatorGrid = document.querySelector('.senatorGrid')
 
 function getSimplifiedSenators(senatorArray){
  return senatorArray.map(senator => {
@@ -36,7 +36,7 @@ function populateSenatorDiv(simpleSenators) {
         senFigure.appendChild(figCaption)
         senDiv.appendChild(senFigure)
         senDiv.appendChild(progressBars(senator))
-        senatorGrid.appendChild(sendiv)
+        senatorGrid.appendChild(senDiv)
     })
 }
 
@@ -56,11 +56,11 @@ function progressBars(senator) {
     let seniorityBar = document.createElement('progress')
     seniorityBar.id = 'seniority'
     seniorityBar.max = 100
-    seniorityBar.value = parseInt((senator.seniority / mostSeniority) * 100)
+    seniorityBar.value = parseInt((senator.seniority / mostSeniority.seniority) * 100)
     let votingLabel = document.createElement('label')
     votingLabel.for = 'voting'
-    votingLabel.textContent = "Vote"
-    let votingBar = document.createElement('label')
+    votingLabel.textContent = 'Vote'
+    let votingBar = document.createElement('progress')
     votingLabel.id = 'voting'
     votingBar.max = 100
     votingBar.value = 10
