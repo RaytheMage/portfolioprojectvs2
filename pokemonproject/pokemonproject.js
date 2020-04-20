@@ -52,12 +52,10 @@ function populatePokeCard(singlePokemon) {
 
 function populateCardFront(pokemon) {
     let cardFront = document.createElement('div')
-    cardFront.className = 'card_face card_face--front'
+    cardFront.className = 'card__face card__face--front'
     let frontImage = document.createElement('img')
-    frontImage.src = '/pokeimages/${getImageName(pokeman)}.png'
+    frontImage.src = `/pokemonproject/pokeimages/${getImageFileName(pokemon)}.png`
 
-    // '../images/${getImageName(pokeman)}.png'
-    
     let frontLabel = document.createElement('p')
     frontLabel.textContent = `${pokemon.name.charAt(0).toUpperCase()}${pokemon.name.slice(1)}`
     cardFront.appendChild(frontImage)
@@ -65,7 +63,7 @@ function populateCardFront(pokemon) {
     return cardFront
 }
 
-function getImageName(pokemon) {
+function getImageFileName(pokemon) {
     if (pokemon.id < 10) {
         return `00${pokemon.id}`
     } else if (pokemon.id > 9 && pokemon.id < 100) {
@@ -77,7 +75,7 @@ function getImageName(pokemon) {
 
 function populateCardBack(pokemon) {
     let cardBack = document.createElement('div')
-    cardBack.className = 'card_face card_face--back'
+    cardBack.className = 'card__face card__face--back'
     let abilityList = document.createElement('ul')
     pokemon.abilities.forEach(ability => {
         let abilityName = document.createElement('li')
