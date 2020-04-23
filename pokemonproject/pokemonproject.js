@@ -34,10 +34,6 @@ newButton.addEventListener('click', () => {
     addPokemon()
 })
 
-clearButton.addEventListener('click', () => {
-    removePokemon()
-})
-
 function populatePokeCard(singlePokemon) {
     let pokeScene = document.createElement('div')
     pokeScene.className = 'scene'
@@ -74,7 +70,7 @@ function getImageFileName(pokemon) {
     } else if (pokemon.id > 9 && pokemon.id < 100) {
         return `0${pokemon.id}`
     } else if (pokemon.id > 809) {
-        return `pokeball`
+        return `pokeball.svg`
     }
 }
 
@@ -123,38 +119,34 @@ class Pokemon {
 }
 
 function addPokemon() {
-    let Thoremon = new Pokemon(190, 290, 'thoremon',
+    let Skelilla = new Pokemon(13, 13, 'skelilla',
     [
         {
             ability: {
-                name: 'Thunder Belly'
+                name: 'Magician'
             }
         },
         {
             ability: {
-                name: 'Beard Power'
+                name: 'Wandering Spirit'
             }
         },
         {
             ability: {
-                name: 'Rancid Stench'
+                name: 'Power of Alchemy'
             }
         }
     ])
-    populatePokeCard(Thoremon)
+    populatePokeCard(Skelilla)
 }
 
         // Code I've added
-function removePokemon(element) {
-    wile (element.firstChild){
-        element.removeChild(element.firstChild)
-    } 
-}
-function removePokemon() {
-    removeChildren(pokemonGrid)
-    singlePokemon.forEach(pokeScene => {
-let element = document.getElementById("top");
-while (element.firstChild) {
-  element.removeChild(element.firstChild);
-}
+
+        function removeChildren(element) {
+            while (element.firstChild) {
+              element.removeChild(element.firstChild);
+            }
+          }
+          
+
         // Code I've added
