@@ -12,9 +12,9 @@ async function getAPIData(url) {
 
 // now, use the async getAPIData function
 function loadPage() {
-    getAPIData('https://pokeapi.co/api/v2/pokemon/?&limit=25').then((data) => {
+    getAPIData('https://pokeapi.co/api/v2/pokemon/?&limit=25').then(async(data) => {
     for (const pokemon of data.results) {
-        getAPIData(pokemon.url).then((pokeData) => {
+        await getAPIData(pokemon.url).then((pokeData) => {
             populatePokeCard(pokeData)
         })
     }
@@ -24,6 +24,7 @@ function loadPage() {
 let pokemonGrid = document.querySelector('.pokemonGrid')
 let startButton = document.querySelector('#startButton')
 let newButton = document.querySelector('#newButton')
+let clearButton = document.querySelector('#clearButton')
 
 startButton.addEventListener('click', () => {
     loadPage()
@@ -31,6 +32,10 @@ startButton.addEventListener('click', () => {
 
 newButton.addEventListener('click', () => {
     addPokemon()
+})
+
+clearButton.addEventListener('click', () => {
+    removePokemon()
 })
 
 function populatePokeCard(singlePokemon) {
@@ -140,17 +145,16 @@ function addPokemon() {
 }
 
         // Code I've added
-// function 
-// removeChildren(element) {
-//     wile (element.firstChild){
-//         element.removeChild(element.firstChild)
-//     } 
-// }
-// function removePokemon() {
-//     removeChildren(pokemonGrid)
-//     singlePokemon.forEach(pokeScene => {
-// let element = document.getElementById("top");
-// while (element.firstChild) {
-//   element.removeChild(element.firstChild);
-// }
+function removePokemon(element) {
+    wile (element.firstChild){
+        element.removeChild(element.firstChild)
+    } 
+}
+function removePokemon() {
+    removeChildren(pokemonGrid)
+    singlePokemon.forEach(pokeScene => {
+let element = document.getElementById("top");
+while (element.firstChild) {
+  element.removeChild(element.firstChild);
+}
         // Code I've added
