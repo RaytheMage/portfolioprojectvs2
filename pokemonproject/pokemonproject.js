@@ -11,8 +11,8 @@ async function getAPIData(url) {
 }
 
 // now, use the async getAPIData function
-function loadPage() {
-    getAPIData('https://pokeapi.co/api/v2/pokemon/?&limit=25').then(async(data) => {
+function loadPage(offset, limit) {
+    getAPIData(`https://pokeapi.co/api/v2/pokemon/?offset=${offset}&limit=${limit}`).then(async(data) => {
     for (const pokemon of data.results) {
         await getAPIData(pokemon.url).then((pokeData) => {
             populatePokeCard(pokeData)
@@ -24,14 +24,18 @@ function loadPage() {
 let pokemonGrid = document.querySelector('.pokemonGrid')
 let startButton = document.querySelector('#startButton')
 let newButton = document.querySelector('#newButton')
-let clearButton = document.querySelector('#clearButton')
 
 startButton.addEventListener('click', () => {
-    loadPage()
+    loadPage(0, 25)
 })
 
 newButton.addEventListener('click', () => {
-    addPokemon()
+    let newCardCoords = addPokemon()
+    window.scrollTo({
+        top: newCardCoords.top,
+        left: newCardCoords.left,
+        behavior:'smooth'
+    })
 })
 
 function populatePokeCard(singlePokemon) {
@@ -49,6 +53,7 @@ function populatePokeCard(singlePokemon) {
     pokeCard.appendChild(pokeBack)
     pokeScene.appendChild(pokeCard)
     pokemonGrid.appendChild(pokeScene)
+    return pokeScene.getBoundingClientRect()
 }
 
 function populateCardFront(pokemon) {
@@ -68,10 +73,12 @@ function getImageFileName(pokemon) {
     if (pokemon.id < 10) {
         return `00${pokemon.id}`
     } else if (pokemon.id > 9 && pokemon.id < 100) {
-        return `0${pokemon.id}`
-    } else if (pokemon.id > 809) {
-        return `pokeball`
+        return `0${pokemon.id}` 
+    } 
+    else if (pokemon.id > 101 && pokemon.id < 964) {
+        return `${pokemon.id}`
     }
+        return `pokeball`
 }
 
 function populateCardBack(pokemon) {
@@ -114,7 +121,7 @@ class Pokemon {
         this.weight = weight
         this.name = name
         this.abilities = abilities
-        this.id = 900
+        this.id = 975
     }
 }
 
@@ -137,16 +144,5 @@ function addPokemon() {
             }
         }
     ])
-    populatePokeCard(Skelilla)
+    return populatePokeCard(Skelilla)
 }
-
-        // Code I've added
-
-        function removeChildren(element) {
-            while (element.firstChild) {
-              element.removeChild(element.firstChild);
-            }
-          }
-          
-
-        // Code I've added
