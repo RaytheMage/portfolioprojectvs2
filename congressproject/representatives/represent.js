@@ -9,6 +9,7 @@ function getSimplifiedReps(repArray){
             id: rep.id,
             name: `${rep.first_name}${middleName}${rep.last_name}`,
             imgURL: `https://www.govtrack.us/static/legislator-photos/${rep.govtrack_id}-200px.jpeg`,
+            state: rep.state,
             seniority: parseInt(rep.seniority, 10),
             missedVotesPCT: rep.missed_votes_pct,
             party: rep.party,
@@ -16,8 +17,6 @@ function getSimplifiedReps(repArray){
         }
     })
 }
-
-console.log(getSimplifiedReps)
 
 function populateRepresentativeDiv(simpleReps) {
     console.log(simpleReps)
@@ -30,10 +29,13 @@ function populateRepresentativeDiv(simpleReps) {
         if (rep.party === 'R') partyIcon.className = 'fas fa-republican'
         if (rep.party === 'D') partyIcon.className = 'fas fa-democrat'
         if (rep.party === 'ID') partyIcon.className = 'fas fa-star'
+        let repState = document.createElement('p')
         figImg.src = rep.imgURL
         figCaption.textContent = rep.name
+        repState.textContent = rep.state
 
         figCaption.appendChild(partyIcon)
+        figCaption.appendChild(repState)
         repFigure.appendChild(figImg)
         repFigure.appendChild(figCaption)
         repDiv.appendChild(repFigure)

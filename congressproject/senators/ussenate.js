@@ -9,6 +9,7 @@ function getSimplifiedSenators(senatorArray){
         id: senator.id,
         name: `${senator.first_name}${middleName}${senator.last_name}`,
         imgURL: `https://www.govtrack.us/static/legislator-photos/${senator.govtrack_id}-200px.jpeg`,
+        state: senator.state,
         seniority: parseInt(senator.seniority, 10),
         missedVotesPct: senator.missed_votes_pct,
         party: senator.party,
@@ -28,6 +29,7 @@ function populateSenatorDiv(simpleSenators) {
         if (senator.party === 'R') partyIcon.className = 'fas fa-republican'
         if (senator.party === 'D') partyIcon.className = 'fas fa-democrat'
         if (senator.party === 'ID') partyIcon.className = 'fas fa-star'
+        let senatorState = document.createElement('p')
         figImg.src = senator.imgURL
         figCaption.textContent = senator.name
 
@@ -36,6 +38,7 @@ function populateSenatorDiv(simpleSenators) {
         senFigure.appendChild(figCaption)
         senDiv.appendChild(senFigure)
         senDiv.appendChild(progressBars(senator))
+        senDiv.appendChild(senatorState)
         senatorGrid.appendChild(senDiv)
     })
 }
