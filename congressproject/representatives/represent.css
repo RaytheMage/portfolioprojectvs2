@@ -58,27 +58,46 @@
   }
 
 /* Sections */
-.section {
+.senatorGrid {
   display: flex;
-  flex-flow: row wrap;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   }
-
-.project-pic {
-  max-width: 300px;
-  padding: 25px;
-  padding-bottom: 0px;
-}
-
-iframe {
-  padding: 25px;
-  padding-bottom: 0px;
-}
-
-.project-title {
-  padding-bottom: 25px;
-}
+  
+  figure {
+    margin: 25px 25px 0px 25px;
+  }
+  
+  figcaption {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0px;
+  }
+  
+  .fa-democrat {
+    color: blue;
+  }
+  
+  .fa-republican {
+    color: red;
+  }
+  
+  .fa-star {
+    color: goldenrod;
+  }
+  
+  .progressDiv {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 25px;
+  padding-bottom: 10px;
+  }
+  
+  label {
+    font-size: 12px;
+    text-align: left;
+  }
 
 /* footer */
 footer {
