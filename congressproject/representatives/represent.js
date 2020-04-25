@@ -19,7 +19,6 @@ function getSimplifiedReps(repArray){
 }
 
 function populateRepresentativeDiv(simpleReps) {
-    console.log(simpleReps)
     simpleReps.forEach(rep => {
         let repDiv = document.createElement('div')
         let repFigure = document.createElement('figure')
@@ -29,13 +28,10 @@ function populateRepresentativeDiv(simpleReps) {
         if (rep.party === 'R') partyIcon.className = 'fas fa-republican'
         if (rep.party === 'D') partyIcon.className = 'fas fa-democrat'
         if (rep.party === 'ID') partyIcon.className = 'fas fa-star'
-        let repState = document.createElement('p')
         figImg.src = rep.imgURL
         figCaption.textContent = rep.name
-        repState.textContent = rep.state
 
         figCaption.appendChild(partyIcon)
-        figCaption.appendChild(repState)
         repFigure.appendChild(figImg)
         repFigure.appendChild(figCaption)
         repDiv.appendChild(repFigure)
@@ -43,6 +39,13 @@ function populateRepresentativeDiv(simpleReps) {
         repGrid.appendChild(repDiv)
     })
 }
+
+// function stateDiv
+// let stateDiv = document.createElement('div')
+// let stateTitle = document.createElement('p')
+// let repState = document.createElement('p')
+// stateDiv.appendChild(stateTitle)
+//         stateDiv.appendChild(repState)
 
 function progressBars(rep) {
     let progressDiv = document.createElement('div')
@@ -80,7 +83,7 @@ function progressBars(rep) {
 
 const filterReps = (prop, value) => {
     return houseofrepresentatives.filter(rep => {
-        return rep[prop] ===value
+        return rep[prop] === value
     })
 }
 

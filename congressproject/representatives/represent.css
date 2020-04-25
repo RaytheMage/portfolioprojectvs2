@@ -58,7 +58,7 @@
   }
 
 /* Sections */
-.senatorGrid {
+.repGrid {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;

@@ -34,11 +34,14 @@ function populateSenatorDiv(simpleSenators) {
         figCaption.textContent = senator.name
 
         figCaption.appendChild(partyIcon)
+        figCaption.appendChild(senatorState)
+        
         senFigure.appendChild(figImg)
         senFigure.appendChild(figCaption)
+        
         senDiv.appendChild(senFigure)
         senDiv.appendChild(progressBars(senator))
-        senDiv.appendChild(senatorState)
+        // senDiv.appendChild(senatorState)
         senatorGrid.appendChild(senDiv)
     })
 }
@@ -102,4 +105,3 @@ const mostLoyal = getSimplifiedSenators(republicans).reduce((acc, senator) => {
 // console.log(loyalArray)
 
 populateSenatorDiv(getSimplifiedSenators(senators))
-console.log(mostSeniority.seniority)
