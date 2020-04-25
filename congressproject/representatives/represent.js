@@ -1,14 +1,22 @@
-import { houseofrepresentatives } from '../Data/houseofrepresentatives.js'
+import {houseofrepresentatives} from '../Data/houseofrepresentatives.js'
 
 const repGrid = document.querySelector('.repGrid')
 
-function getSimplifiedReps(repArray){
+function getSimplifiedReps(repArray) {
     return repArray.map(rep => {
-        let middleName = rep.middle_name ? ` ${rep.middle_name} ` : ` `
+        let middleName = rep.middle_name ? ` ${
+            rep.middle_name
+        } ` : ` `
         return {
             id: rep.id,
-            name: `${rep.first_name}${middleName}${rep.last_name}`,
-            imgURL: `https://www.govtrack.us/static/legislator-photos/${rep.govtrack_id}-200px.jpeg`,
+            name: `${
+                rep.first_name
+            }${middleName}${
+                rep.last_name
+            }`,
+            imgURL: `https://www.govtrack.us/static/legislator-photos/${
+                rep.govtrack_id
+            }-200px.jpeg`,
             state: rep.state,
             seniority: parseInt(rep.seniority, 10),
             missedVotesPCT: rep.missed_votes_pct,
@@ -25,9 +33,15 @@ function populateRepresentativeDiv(simpleReps) {
         let figImg = document.createElement('img')
         let figCaption = document.createElement('figcaption')
         let partyIcon = document.createElement('i')
-        if (rep.party === 'R') partyIcon.className = 'fas fa-republican'
-        if (rep.party === 'D') partyIcon.className = 'fas fa-democrat'
-        if (rep.party === 'ID') partyIcon.className = 'fas fa-star'
+        if (rep.party === 'R') 
+            partyIcon.className = 'fas fa-republican'
+        
+        if (rep.party === 'D') 
+            partyIcon.className = 'fas fa-democrat'
+        
+        if (rep.party === 'ID') 
+            partyIcon.className = 'fas fa-star'
+        
         figImg.src = rep.imgURL
         figCaption.textContent = rep.name
 
@@ -35,17 +49,24 @@ function populateRepresentativeDiv(simpleReps) {
         repFigure.appendChild(figImg)
         repFigure.appendChild(figCaption)
         repDiv.appendChild(repFigure)
+        repDiv.appendChild(stateAbbr(rep))
         repDiv.appendChild(progressBars(rep))
         repGrid.appendChild(repDiv)
     })
 }
 
-// function stateDiv
-// let stateDiv = document.createElement('div')
-// let stateTitle = document.createElement('p')
-// let repState = document.createElement('p')
-// stateDiv.appendChild(stateTitle)
-//         stateDiv.appendChild(repState)
+function stateAbbr(rep) {
+    let stateDiv = document.createElement('div')
+    stateDiv.className = 'stateDiv'
+    let stateTitle = document.createElement('p')
+    stateTitle.textContent = 'State'
+    let repState = document.createElement('p')
+    repState.textContent = rep.state
+
+    stateDiv.appendChild(stateTitle)
+    stateDiv.appendChild(repState)
+    return stateDiv
+}
 
 function progressBars(rep) {
     let progressDiv = document.createElement('div')
