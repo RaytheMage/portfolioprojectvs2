@@ -88,6 +88,18 @@ figcaption {
   color: goldenrod;
 }
 
+.stateDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px 25px;
+  padding-bottom: 10px;
+}
+
+.stateDiv p {
+  font-size: 14px;
+}
+
 .progressDiv {
 display: flex;
 flex-direction: column;

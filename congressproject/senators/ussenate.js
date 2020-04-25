@@ -29,21 +29,30 @@ function populateSenatorDiv(simpleSenators) {
         if (senator.party === 'R') partyIcon.className = 'fas fa-republican'
         if (senator.party === 'D') partyIcon.className = 'fas fa-democrat'
         if (senator.party === 'ID') partyIcon.className = 'fas fa-star'
-        let senatorState = document.createElement('p')
         figImg.src = senator.imgURL
         figCaption.textContent = senator.name
 
         figCaption.appendChild(partyIcon)
-        figCaption.appendChild(senatorState)
-        
         senFigure.appendChild(figImg)
         senFigure.appendChild(figCaption)
-        
         senDiv.appendChild(senFigure)
+        senDiv.appendChild(stateAbbr(senator))
         senDiv.appendChild(progressBars(senator))
-        // senDiv.appendChild(senatorState)
         senatorGrid.appendChild(senDiv)
     })
+}
+
+function stateAbbr(senator) {
+    let stateDiv = document.createElement('div')
+    stateDiv.className = 'stateDiv'
+    let stateTitle = document.createElement('p')
+    stateTitle.textContent = 'State'
+    let senatorState = document.createElement('p')
+    senatorState.textContent = senator.state
+
+    stateDiv.appendChild(stateTitle)
+    stateDiv.appendChild(senatorState)
+    return stateDiv
 }
 
 function progressBars(senator) {
