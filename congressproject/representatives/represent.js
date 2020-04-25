@@ -19,7 +19,7 @@ function getSimplifiedReps(repArray) {
             }-200px.jpeg`,
             state: rep.state,
             seniority: parseInt(rep.seniority, 10),
-            missedVotesPCT: rep.missed_votes_pct,
+            missedVotesPct: rep.missed_votes_pct,
             party: rep.party,
             loyaltyPct: rep.votes_with_party_pct
         }

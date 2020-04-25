@@ -19,7 +19,6 @@ function getSimplifiedSenators(senatorArray){
 }
 
 function populateSenatorDiv(simpleSenators) {
-    console.log(simpleSenators)
     simpleSenators.forEach(senator => {
         let senDiv = document.createElement('div') 
         let senFigure = document.createElement('figure')
