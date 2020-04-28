@@ -71,13 +71,13 @@ function stateAbbr(rep) {
 function progressBars(rep) {
     let progressDiv = document.createElement('div')
     progressDiv.className = 'progressDiv'
-    let loyaltyLabel = document.createElement('label')
-    loyaltyLabel.for = 'loyalty'
-    loyaltyLabel.textContent = 'Loyalty'
-    let loyaltyBar = document.createElement('progress')
-    loyaltyBar.id = 'loyalty'
-    loyaltyBar.max = 100
-    loyaltyBar.value = rep.loyaltyPct
+    // let loyaltyLabel = document.createElement('label')
+    // loyaltyLabel.for = 'loyalty'
+    // loyaltyLabel.textContent = 'Loyalty'
+    // let loyaltyBar = document.createElement('progress')
+    // loyaltyBar.id = 'loyalty'
+    // loyaltyBar.max = 100
+    // loyaltyBar.value = rep.loyaltyPct
     let seniorityLabel = document.createElement('label')
     seniorityLabel.for = 'seniority'
     seniorityLabel.textContent = 'Seniority'
@@ -93,8 +93,8 @@ function progressBars(rep) {
     votingBar.max = 100
     votingBar.value = 10
 
-    progressDiv.appendChild(loyaltyLabel)
-    progressDiv.appendChild(loyaltyBar)
+    // progressDiv.appendChild(loyaltyLabel)
+    // progressDiv.appendChild(loyaltyBar)
     progressDiv.appendChild(seniorityLabel)
     progressDiv.appendChild(seniorityBar)
     progressDiv.appendChild(votingLabel)
