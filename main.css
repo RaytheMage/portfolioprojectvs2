@@ -38,7 +38,7 @@ nav {
 }
 
 nav ul {
-  text-align: right;
+  text-align: left;
   position: fixed;
   width: 100%;
   background-color: #221127;
@@ -46,9 +46,14 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  padding: 30px;
-  margin-right: 20px;
+  padding: 20px;
+  margin-left: 20px;
   color: #e1cee2;
+}
+
+.logo{
+  max-width: 60px;
+  max-height: 60px;
 }
 
 nav ul li a {
@@ -111,10 +116,12 @@ iframe {
   /* padding-bottom: 50px; */
 }
 
+/*
 .contactheader {
   margin-bottom: 75px; 
   color: #e1cee2;
 }
+*/
 
 .contact-details {
   display: inline-block;
