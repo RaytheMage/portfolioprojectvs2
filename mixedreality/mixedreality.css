@@ -1,0 +1,144 @@
+/* {
+white: #EFE7E5;
+deep dark red: #3D0103;
+grey: #B0ACAB;
+red: #9C1F20;
+Black: #1C191B;
+
+Dark Purple: #221127;
+Dark Matt Purple: #6A4C73;
+Purple: #723673;
+Light Matt Purple: #ae8daf;
+Light Purple: #e1cee2;
+
+} */
+
+/* Body */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #221127;
+    background-color: whitesmoke;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Nav */
+  nav {
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul {
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    background-color: #221127;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding: 20px;
+    margin-left: 20px;
+    color: #e1cee2;
+  }
+  
+  .logo{
+    max-width: 60px;
+    max-height: 60px;
+  }
+  
+  nav ul li a {
+    color: #e1cee2;
+    text-decoration: none;
+  }
+  
+  nav ul li a:hover {
+    color: #e1cee2;
+  }
+  
+  #welcome-section {
+    display: block;
+    padding-top: 45vh;
+    min-height: 55vh;
+    color: #e1cee2;
+    background-color: #221127;
+  }
+  
+  /* projects */
+  .allprojects {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: center;
+    }
+  
+  .video {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .work-header {
+    margin-top: 100px;
+    margin-bottom: 75px;
+    color: #221127;
+  }
+  
+  .project-pic {
+    max-width: 300px;
+    padding: 25px;
+    padding-bottom: 0px;
+  }
+  
+  iframe {
+    padding: 25px;
+    padding-bottom: 0px;
+  }
+  
+  .project-title {
+    padding-bottom: 25px;
+  }
+
+  
+  /* footer */
+  footer {
+    background-color: #221127;
+    Color: #e1cee2;
+    padding-top: 25px;
+    padding-bottom: 50px;
+  }
+  
+  /* media query */
+  
+  @media only screen and (max-width: 600px) {
+    nav ul {
+      text-align: center;
+    }
+    nav ul li {
+      margin-right: 20px;
+    }
+    .twocolumns {
+      justify-content: space-around;
+    }
+  }
+  
+  @media only screen and (max-width: 367) {
+    nav ul {
+      text-align: center;
+    }
+    nav ul li {
+      margin-right: 0px;
+    }
+    .twocolumns {
+      justify-content: space-around;
+    }
+  }
+  
