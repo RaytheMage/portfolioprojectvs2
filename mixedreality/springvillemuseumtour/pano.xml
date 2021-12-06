@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="6.1.13" start="node1" apprev="18080">
+  <panorama id="node1">
+    <input height="2992" levelbiashidpi="1.000" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2992" leveltilesize="510" levelbias="0.400" overlap="1" levelingroll="0" levelingpitch="0">
+      <level height="2992" predecode="0" width="2992" preload="0"/>
+      <level height="1496" predecode="0" width="1496" preload="0"/>
+      <level height="748" predecode="0" width="748" preload="0"/>
+      <level height="374" predecode="1" width="374" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-134.254">
+      <start pan="0" projection="4" tilt="0" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fovstereographic="270" fovfisheye="360" tilt="90" fov="120" scaletofit="1"/>
+    </view>
+    <userdata tags="Panoramic - Springville Museum" heading="-134.254" datetime="" title="In front of Medieval Painting" description="" info="" nodeid="node1" longitude="" author="" copyright="" latitude="" source="" comment="" customnodeid="">
+      <mapcoords y="-1.11786" x="1.90613" x_floorplan_percent="87.5158" mapid="FloorPlan01" y_floorplan_percent="67.0511"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" backgroundcolor="0xffffff" height="20" background="1" textalpha="1" bordercolor="0x000000" width="180" borderalpha="1" borderradius="1" textcolor="0x000000" border="1" wordwrap="1" backgroundalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot pan="-264.89" target="143.3/-0.3/69.0" skinid="ht_node" title="Move Here" description="" tilt="-0.71" id="Point01" url="{node5}"/>
+      <hotspot pan="-210.33" target="4.1/-2.3/51.9" skinid="ht_node" title="Move Here" description="" tilt="-0.5" id="Point02" url="{node3}"/>
+      <hotspot pan="-161.29" target="48.0/-2.4/59.1" skinid="ht_node" title="Move Here" description="" tilt="-1.63" id="Point03" url="{node4}"/>
+      <hotspot pan="-136.23" target="-59.1/-1.3/57.0" skinid="ht_node" title="Move Here" description="" tilt="-1.59" id="Point04" url="{node2}"/>
+      <hotspot pan="-91.97" target="" skinid="ht_image" title="Wenzel Ulrik Tornoe" description="" tilt="-7.29" id="Point05" url="images/AnskarConvertingTheVikings.png"/>
+      <hotspot pan="-124.44" target="" skinid="ht_image" title="Justin Wheatley" description="" tilt="-6.67" id="Point06" url="images/SundayWalk.png"/>
+      <hotspot pan="-196.66" target="" skinid="ht_image" title="Lindsay Ruiz" description="" tilt="-2.91" id="Point07" url="images/LaDanza.png"/>
+      <hotspot pan="-209.14" target="" skinid="ht_image" title="James Taylor Harwood" description="" tilt="-3.25" id="Point08" url="images/TheHarwoodBarn.png"/>
+      <hotspot pan="-249.67" target="" skinid="ht_image" title="Wilson Ong" description="" tilt="-2.96" id="Point09" url="images/JudgementOfTokyo.png"/>
+      <hotspot pan="-261.1" target="" skinid="ht_image" title="Vincent Mattina" description="" tilt="-2.52" id="Point10" url="images/BlackCrow.png"/>
+      <hotspot pan="-287.31" target="" skinid="ht_image" title="Arnold Friberg" description="" tilt="-3.88" id="Point11" url="images/AlertToDanger.png"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" softedge="0" zoomafteroutfov="20" blendtime="1" zoomspeed="2" zoomin="0" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomfov="20" zoomafterinfov="90" blendcolor="0x000000"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" invertwheel="0" contextfullscreen="1" contextvr="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" dblclickfullscreen="0" invertcontrol="1" speedwheel="1" contextprojections="0" sensitivity="8" lockedkeyboard="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node5">
+    <input height="2996" levelbiashidpi="1.000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2996" leveltilesize="510" levelbias="0.400" overlap="1" levelingroll="0" levelingpitch="0">
+      <level height="2996" predecode="0" width="2996" preload="0"/>
+      <level height="1498" predecode="0" width="1498" preload="0"/>
+      <level height="749" predecode="0" width="749" preload="0"/>
+      <level height="374" predecode="1" width="374" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-83.2997">
+      <start pan="0" projection="4" tilt="0" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fovstereographic="270" fovfisheye="360" tilt="90" fov="120" scaletofit="1"/>
+    </view>
+    <userdata tags="Panoramic - Springville Museum" heading="-83.2997" datetime="" title="Right of the Tokyo Painting" description="" info="" nodeid="node5" longitude="" author="" copyright="" latitude="" source="" comment="" customnodeid="">
+      <mapcoords y="-1.1618" x="2.0105" x_floorplan_percent="92.3077" mapid="FloorPlan01" y_floorplan_percent="69.687"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" backgroundcolor="0xffffff" height="20" background="1" textalpha="1" bordercolor="0x000000" width="180" borderalpha="1" borderradius="1" textcolor="0x000000" border="1" wordwrap="1" backgroundalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot pan="-81.04" target="68.7/2.0/48.2" skinid="ht_node" title="Move Here" description="" tilt="-0.67" id="Point01" url="{node4}"/>
+      <hotspot pan="-16.79" target="-52.5/2.3/53.4" skinid="ht_node" title="Move Here" description="" tilt="0.08" id="Point02" url="{node1}"/>
+      <hotspot pan="-85.74" target="53.6/0.3/59.2" skinid="ht_node" title="Move Here" description="" tilt="-1.63" id="Point03" url="{node3}"/>
+      <hotspot pan="-57.43" target="-28.0/-1.5/46.7" skinid="ht_node" title="Move Here" description="" tilt="-3.29" id="Point04" url="{node2}"/>
+      <hotspot pan="-324.71" target="" skinid="ht_image" title="John Heber Stansfield" description="" tilt="-9.79" id="Point05" url="images/GreatWhiteThrone.png"/>
+      <hotspot pan="-289.59" target="" skinid="ht_image" title="Arnold Friberg" description="" tilt="-9.05" id="Point06" url="images/AlertToDanger.png"/>
+      <hotspot pan="-207.69" target="" skinid="ht_image" title="Vincent Mattina" description="" tilt="-8.61" id="Point07" url="images/BlackCrow.png"/>
+      <hotspot pan="-172.21" target="" skinid="ht_image" title="Wilson Ong" description="" tilt="-10.55" id="Point08" url="images/JudgementOfTokyo.png"/>
+      <hotspot pan="-108.05" target="" skinid="ht_image" title="James Taylor Harwood" description="" tilt="-5.01" id="Point09" url="images/TheHarwoodBarn.png"/>
+      <hotspot pan="-101.05" target="" skinid="ht_image" title="Lindsay Ruiz" description="" tilt="-3.72" id="Point10" url="images/LaDanza.png"/>
+      <hotspot pan="-45.18" target="" skinid="ht_image" title="Justin Wheatley" description="" tilt="-3.1" id="Point11" url="images/SundayWalk.png"/>
+      <hotspot pan="-30.55" target="" skinid="ht_image" title="Wenzel Ulrik Tornoe" description="" tilt="-2.6" id="Point12" url="images/AnskarConvertingTheVikings.png"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" softedge="0" zoomafteroutfov="20" blendtime="1" zoomspeed="2" zoomin="0" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomfov="20" zoomafterinfov="90" blendcolor="0x000000"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" invertwheel="0" contextfullscreen="1" contextvr="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" dblclickfullscreen="0" invertcontrol="1" speedwheel="1" contextprojections="0" sensitivity="8" lockedkeyboard="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node3">
+    <input height="2991" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2991" leveltilesize="510" levelbias="0.400" overlap="1" levelingroll="0" levelingpitch="0">
+      <level height="2991" predecode="0" width="2991" preload="0"/>
+      <level height="1495" predecode="0" width="1495" preload="0"/>
+      <level height="747" predecode="0" width="747" preload="0"/>
+      <level height="373" predecode="1" width="373" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="71.8763">
+      <start pan="0" projection="4" tilt="0" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fovstereographic="270" fovfisheye="360" tilt="90" fov="120" scaletofit="1"/>
+    </view>
+    <userdata tags="Panoramic - Springville Museum" heading="71.8763" datetime="" title="Left of the Tokyo Painting" description="" info="" nodeid="node3" longitude="" author="" copyright="" latitude="" source="" comment="" customnodeid="">
+      <mapcoords y="-1.06567" x="2.0105" x_floorplan_percent="92.3077" mapid="FloorPlan01" y_floorplan_percent="63.9209"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" backgroundcolor="0xffffff" height="20" background="1" textalpha="1" bordercolor="0x000000" width="180" borderalpha="1" borderradius="1" textcolor="0x000000" border="1" wordwrap="1" backgroundalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot pan="-97.4" target="103.9/-8.4/64.4" skinid="ht_node" title="Right of the Tokyo Painting" description="" tilt="-3.18" id="Point01" url="{node5}"/>
+      <hotspot pan="-192.81" target="-51.3/1.9/56.5" skinid="ht_node" title="Move Here" description="" tilt="-0.96" id="Point02" url="{node1}"/>
+      <hotspot pan="-288.39" target="69.6/0.6/56.1" skinid="ht_node" title="Move Here" description="" tilt="-0.97" id="Point03" url="{node4}"/>
+      <hotspot pan="-260.05" target="-36.3/0.0/53.7" skinid="ht_node" title="Move Here" description="" tilt="-1.7" id="Point04" url="{node2}"/>
+      <hotspot pan="-331.31" target="" skinid="ht_image" title="Lindsay Ruiz" description="" tilt="-6.05" id="Point05" url="images/LaDanza.png"/>
+      <hotspot pan="-353.56" target="" skinid="ht_image" title="James Taylor Harwood" description="" tilt="-7.6" id="Point06" url="images/TheHarwoodBarn.png"/>
+      <hotspot pan="-66.64" target="" skinid="ht_image" title="Wilson Ong" description="" tilt="-4.91" id="Point07" url="images/JudgementOfTokyo.png"/>
+      <hotspot pan="-77.19" target="" skinid="ht_image" title="Vincent Mattina" description="" tilt="-3.65" id="Point08" url="images/BlackCrow.png"/>
+      <hotspot pan="-112.47" target="" skinid="ht_image" title="Arnold Friberg" description="" tilt="-4.16" id="Point09" url="images/AlertToDanger.png"/>
+      <hotspot pan="-125.14" target="" skinid="ht_image" title="John Heber Stansfield" description="" tilt="-5.09" id="Point10" url="images/GreatWhiteThrone.png"/>
+      <hotspot pan="-213.71" target="" skinid="ht_image" title="Wenzel Ulrik Tornoe" description="" tilt="-4.28" id="Point11" url="images/AnskarConvertingTheVikings.png"/>
+      <hotspot pan="-232.02" target="" skinid="ht_image" title="Justin Wheatley" description="" tilt="-5.3" id="Point12" url="images/SundayWalk.png"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" softedge="0" zoomafteroutfov="20" blendtime="1" zoomspeed="2" zoomin="0" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomfov="20" zoomafterinfov="90" blendcolor="0x000000"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" invertwheel="0" contextfullscreen="1" contextvr="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" dblclickfullscreen="0" invertcontrol="1" speedwheel="1" contextprojections="0" sensitivity="8" lockedkeyboard="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node2">
+    <input height="2991" levelbiashidpi="1.000" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2991" leveltilesize="510" levelbias="0.400" overlap="1" levelingroll="0" levelingpitch="0">
+      <level height="2991" predecode="0" width="2991" preload="0"/>
+      <level height="1495" predecode="0" width="1495" preload="0"/>
+      <level height="747" predecode="0" width="747" preload="0"/>
+      <level height="373" predecode="1" width="373" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="300.535">
+      <start pan="0" projection="4" tilt="0" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fovstereographic="270" fovfisheye="360" tilt="90" fov="120" scaletofit="1"/>
+    </view>
+    <userdata tags="Panoramic - Springville Museum" heading="300.535" datetime="" title="Left of the Ballerina Painting" description="" info="" nodeid="node2" longitude="" author="" copyright="" latitude="" source="" comment="" customnodeid="">
+      <mapcoords y="-0.928345" x="1.91986" x_floorplan_percent="88.1463" mapid="FloorPlan01" y_floorplan_percent="55.6837"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" backgroundcolor="0xffffff" height="20" background="1" textalpha="1" bordercolor="0x000000" width="180" borderalpha="1" borderradius="1" textcolor="0x000000" border="1" wordwrap="1" backgroundalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot pan="-127.35" target="7.2/0.0/50.7" skinid="ht_node" title="Move Here" description="" tilt="-0.71" id="Point01" url="{node4}"/>
+      <hotspot pan="-208.21" target="-74.2/1.2/50.7" skinid="ht_node" title="Move Here" description="" tilt="-2.09" id="Point02" url="{node3}"/>
+      <hotspot pan="-219.15" target="103.7/-3.8/63.4" skinid="ht_node" title="Move Here" description="" tilt="-1.58" id="Point03" url="{node5}"/>
+      <hotspot pan="-239.53" target="42.9/-4.2/58.2" skinid="ht_node" title="Move Here" description="" tilt="-2.95" id="Point04" url="{node1}"/>
+      <hotspot pan="-283.91" target="" skinid="ht_image" title="George Martin Ottinger" description="" tilt="-6.9" id="Point05" url="images/Heidelberg.png"/>
+      <hotspot pan="-327.03" target="" skinid="ht_image" title="Gilmore Scott" description="" tilt="-9.75" id="Point06" url="images/ColorOfTheMonsoonRains.png"/>
+      <hotspot pan="-10.28" target="" skinid="ht_image" title="James Taylor Harwood" description="" tilt="-7.75" id="Point07" url="images/ChildrenPlayinginField.png"/>
+      <hotspot pan="-28.77" target="" skinid="ht_image" title="Emily Christensen McPhie" description="" tilt="-5.51" id="Point08" url="images/BalanceInAllThings.png"/>
+      <hotspot pan="-62.68" target="" skinid="ht_image" title="James Taylor Harwood" description="" tilt="-6.07" id="Point09" url="images/PortraitOfVernJim.png"/>
+      <hotspot pan="-98.92" target="" skinid="ht_image" title="Vladimir Aleksandrovich Serov" description="" tilt="-4.8" id="Point10" url="images/PortraitOfKrasnosheeva.png"/>
+      <hotspot pan="-109.08" target="" skinid="ht_image" title="James Taylor Harwood" description="" tilt="-4.29" id="Point11" url="images/MyDaughterLark.png"/>
+      <hotspot pan="-126.41" target="" skinid="ht_image" title="Gustavo Ramos" description="" tilt="-6.62" id="Point12" url="images/Nostalgia.png"/>
+      <hotspot pan="-142.82" target="" skinid="ht_image" title="Avard Tennyson Fairbanks" description="" tilt="-8.42" id="Point13" url="images/VenereSull'Onda.png"/>
+      <hotspot pan="-166.86" target="" skinid="ht_image" title="Marwan Nahle" description="" tilt="-3.88" id="Point14" url="images/OnTheWayHome.png"/>
+      <hotspot pan="-175.45" target="" skinid="ht_image" title="George Beard" description="" tilt="-4.84" id="Point15" url="images/DeadHorsePass.png"/>
+    </hotspots>
+    <media/>
+    <transition enabled="1" softedge="0" zoomafteroutfov="20" blendtime="1" zoomspeed="2" zoomin="0" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomfov="20" zoomafterinfov="90" blendcolor="0x000000"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" invertwheel="0" contextfullscreen="1" contextvr="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" dblclickfullscreen="0" invertcontrol="1" speedwheel="1" contextprojections="0" sensitivity="8" lockedkeyboard="0" simulatemass="1"/>
+  </panorama>
+  <panorama id="node4">
+    <input height="2995" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2995" leveltilesize="510" levelbias="0.400" overlap="1" levelingroll="0" levelingpitch="0">
+      <level height="2995" predecode="0" width="2995" preload="0"/>
+      <level height="1497" predecode="0" width="1497" preload="0"/>
+      <level height="748" predecode="0" width="748" preload="0"/>
+      <level height="374" predecode="1" width="374" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="73.02">
+      <start pan="0" projection="4" tilt="0" fov="70"/>
+      <flyin pan="0" projection="9" tilt="-90" fov="170"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max pan="360" fovstereographic="270" fovfisheye="360" tilt="90" fov="120" scaletofit="1"/>
+    </view>
+    <userdata tags="Panoramic - Springville Museum" heading="73.02" datetime="" title="Right of the Ballerina Painting" description="" info="" nodeid="node4" longitude="" author="" copyright="" latitude="" source="" comment="" customnodeid="">
+      <mapcoords y="-0.900879" x="2.00775" x_floorplan_percent="92.1816" mapid="FloorPlan01" y_floorplan_percent="54.0362"/>
+    </userdata>
+    <hotspots height="20" width="180" wordwrap="1">
+      <label enabled="1" backgroundcolor="0xffffff" height="20" background="1" textalpha="1" bordercolor="0x000000" width="180" borderalpha="1" borderradius="1" textcolor="0x000000" border="1" wordwrap="1" backgroundalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" bordercolor="0x0000ff" handcursor="1" borderalpha="1" mode="0" backgroundalpha="0.25098"/>
+      <hotspot pan="-184.13" target="28.2/-0.8/64.5" skinid="ht_node" title="Move Here" description="" tilt="-1.04" id="Point01" url="{node2}"/>
+      <hotspot pan="-99.53" target="-88.6/-7.3/75.7" skinid="ht_node" title="Move Here" description="" tilt="-4.38" id="Point02" url="{node3}"/>
+      <hotspot pan="-104.03" target="97.6/-4.9/60.8" skinid="ht_node" title="Move Here" description="" tilt="-1.02" id="Point03" url="{node5}"/>
+      <hotspot pan="-129.27" target="19.7/-3.5/63.3" skinid="ht_node" title="Move Here" description="" tilt="-1.57" id="Point04" url="{node1}"/>
+      <hotspot pan="-85.44" target="" skinid="ht_image" title="George Beard" description="" tilt="-5.82" id="Point05" url="images/DeadHorsePass.png"/>
+      <hotspot pan="-61.72" target="" skinid="ht_image" title="Marwan Nahle" description="" tilt="-4.93" id="Point06" url="images/OnTheWayHome.png"/>
+      <hotspot pan="-29.72" target="" skinid="ht_image" title="Avard Tennyson Fairbanks" description="" tilt="-16.82" id="Point07" url="images/VenereSull'Onda.png"/>
+      <hotspot pan="-352.23" target="" skinid="ht_image" title="Gustavo Ramos" description="" tilt="-11.22" id="Point08" url="images/Nostalgia.png"/>
+      <hotspot pan="-316.17" target="" skinid="ht_image" title="James Taylor Harwood" description="" tilt="-7.42" id="Point09" url="images/MyDaughterLark.png"/>
+      <hotspot pan="-291.05" target="" skinid="ht_image" title="Vladimir Aleksandrovich Serov" description="" tilt="-8.41" id="Point10" url="images/PortraitOfKrasnosheeva.png"/>
+      <hotspot pan="-241.23" target="" skinid="ht_image" title="James Taylor Harwood" description="" tilt="-6.18" id="Point11" url="images/PortraitOfVernJim.png"/>
+      <hotspot pan="-219.01" target="" skinid="ht_image" title="Emily Christensen McPhie" description="" tilt="-4.64" id="Point12" url="images/BalanceInAllThings.png"/>
+      <hotspot pan="-202.54" target="" skinid="ht_image" title="James Taylor Harwood" description="" tilt="-4.95" id="Point13" url="images/ChildrenPlayinginField.png"/>
+      <hotspot pan="-182.11" target="" skinid="ht_image" title="Gilmore Scott" description="" tilt="-4.52" id="Point14" url="images/ColorOfTheMonsoonRains.png"/>
+      <hotspot pan="-164.16" target="" skinid="ht_image" title="George Martin Ottinger" description="" tilt="-3.78" id="Point15" url="images/Heidelberg.png"/>
+    </hotspots>
+    <media>
+      <video height="240" startmutedmobile="0" pan="-25.870" rotx="-22.000" pansize="10.000" fov="12.570" rotz="-4.000" ambientlevel="0.300" id="Element01" field="90.000" tilt="-23.830" roty="-7.000" tiltsize="10.000" loop="1" clickmode="2" stretch="1.000" nodechangekeep="0" level="1.000" mode="3" handcursor="0" width="320">
+        <source url="media/UAC_Avard_Fairbanks_1_small.mp4"/>
+      </video>
+    </media>
+    <transition enabled="1" softedge="0" zoomafteroutfov="20" blendtime="1" zoomspeed="2" zoomin="0" type="crossdissolve" zoomout="0" zoomoutpause="1" zoomfov="20" zoomafterinfov="90" blendcolor="0x000000"/>
+    <animation useinautorotation="0" syncanimationwithvideo="0" animsequence="Animation01"/>
+    <control lockedwheel="0" invertwheel="0" contextfullscreen="1" contextvr="1" rubberband="0" lockedmouse="0" lockedkeyboardzoom="0" dblclickfullscreen="0" invertcontrol="1" speedwheel="1" contextprojections="0" sensitivity="8" lockedkeyboard="0" simulatemass="1"/>
+  </panorama>
+  <masternode>
+    <userdata tags="" heading="0" datetime="" title="" description="" info="" nodeid="master" longitude="" author="" copyright="" latitude="" source="" comment="" customnodeid=""/>
+  </masternode>
+  <map height="607" title="" width="793" type="file" transparent="0" zoomlevels="1" tileformat="jpg" bgcolor="rgba(255, 255, 255, 1)" id="FloorPlan01" floorplannorth="0"/>
+</tour>
