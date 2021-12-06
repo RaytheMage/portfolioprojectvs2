@@ -12,11 +12,11 @@ Light Matt Purple: #ae8daf;
 Light Purple: #e1cee2;
 
 ---zoo colors---
-Dark Red: ;
-Light Blue: ;
-Creamy baige: ;
-Dull Orange: ;
-Hot Red: ;
+Dark Red: #3F0610;
+Light Blue: #4FDBFF;
+Creamy baige: #F2D6A6;
+Dull Orange: #C05111;
+Hot Red: #E11B19;
 
 } */
 
@@ -30,8 +30,8 @@ Hot Red: ;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     text-align: center;
-    color: #221127;
-    background-color: whitesmoke;
+    color: #3F0610;
+    background-color: #F2D6A6;
   }
   
   html {
@@ -81,6 +81,36 @@ Hot Red: ;
   }
   
   /* projects */
+
+/* Pages */
+  
+  .pages ul {
+    text-align: left;
+    position: fixed;
+    width: 100%;
+    background-color: #3F0610;
+  }
+  
+  .pages ul li {
+    display: inline-block;
+    padding: 20px;
+    margin-left: 20px;
+    color: #F2D6A6;
+  }
+  
+  .pages ul li a {
+    color: #F2D6A6;
+    text-decoration: none;
+  }
+  
+  .pages ul li a:hover {
+    color: #F2D6A6;
+  }
+
+
+
+
+
   .allpages {
     display: flex;
     flex-flow: row wrap;
