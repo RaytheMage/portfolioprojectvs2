@@ -11,6 +11,13 @@ Purple: #723673;
 Light Matt Purple: #ae8daf;
 Light Purple: #e1cee2;
 
+---zoo colors---
+Dark Red: ;
+Light Blue: ;
+Creamy baige: ;
+Dull Orange: ;
+Hot Red: ;
+
 } */
 
 /* Body */
@@ -74,17 +81,12 @@ Light Purple: #e1cee2;
   }
   
   /* projects */
-  .allprojects {
+  .allpages {
     display: flex;
     flex-flow: row wrap;
     flex-direction: row;
     justify-content: center;
     }
-  
-  .video {
-    display: flex;
-    flex-direction: column;
-  }
   
   .work-header {
     margin-top: 100px;
