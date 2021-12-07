@@ -1,10 +1,12 @@
 /* {
+---old page colors---
 white: #EFE7E5;
 deep dark red: #3D0103;
 grey: #B0ACAB;
 red: #9C1F20;
 Black: #1C191B;
 
+---main page colors---
 Dark Purple: #221127;
 Dark Matt Purple: #6A4C73;
 Purple: #723673;
@@ -18,7 +20,7 @@ Creamy baige: #F2D6A6;
 Dull Orange: #C05111;
 Hot Red: #E11B19;
 
-} */
+*/
 
 /* Body */
 * {
@@ -48,14 +50,14 @@ Hot Red: #E11B19;
     text-align: left;
     position: fixed;
     width: 100%;
-    background-color: #221127;
+    background-color: #F2D6A6;
   }
   
   nav ul li {
     display: inline-block;
     padding: 20px;
     margin-left: 20px;
-    color: #e1cee2;
+    color: #3F0610;
   }
   
   .logo{
@@ -64,26 +66,37 @@ Hot Red: #E11B19;
   }
   
   nav ul li a {
-    color: #e1cee2;
+    color: #3F0610;
     text-decoration: none;
   }
   
   nav ul li a:hover {
-    color: #e1cee2;
+    color: #C05111;
   }
-  /*
+  
   #welcome-section {
     display: block;
-    padding-top: 45vh;
-    min-height: 55vh;
+    padding-top: 15vh;
+    min-height: 25vh;
     color: #F2D6A6;
     background-color: #3F0610;
   }
-  */
-  /* projects */
-
-/* Pages */
   
+
+  /* Pages */
+  .allpages {
+    display: flex;
+    flex-flow: row wrap;
+    flex-direction: row;
+    justify-content: center;
+    }
+
+
+  .pages {
+    margin: 0;
+    padding: 0;
+  }  
+
   .pages ul {
     text-align: left;
     position: fixed;
@@ -108,44 +121,37 @@ Hot Red: #E11B19;
   }
 
 
-
-
-
-  .allpages {
-    display: flex;
-    flex-flow: row wrap;
-    flex-direction: row;
-    justify-content: center;
-    }
-  
-  .work-header {
-    margin-top: 100px;
-    margin-bottom: 75px;
-    color: #221127;
-  }
-  
   .project-pic {
     max-width: 300px;
     padding: 25px;
     padding-bottom: 0px;
   }
-  
-  iframe {
-    padding: 25px;
-    padding-bottom: 0px;
-  }
-  
   .project-title {
     padding-bottom: 25px;
   }
 
-  
+
+  /*
+  iframe {
+    padding: 25px;
+    padding-bottom: 0px;
+  }
+  */
+
   /* footer */
   footer {
-    background-color: #221127;
-    Color: #e1cee2;
+    background-color: #3F0610;
+    Color: #F2D6A6;
     padding-top: 25px;
     padding-bottom: 50px;
+  }
+
+  footer a {
+    color: #C05111;
+  }
+
+  footer a:hover {
+    color: #F2D6A6;
   }
   
   /* media query */
