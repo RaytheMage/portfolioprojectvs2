@@ -67,8 +67,8 @@ Light Purple: #e1cee2;
   
   #welcome-section {
     display: block;
-    padding-top: 45vh;
-    min-height: 55vh;
+    padding-top: 25vh;
+    min-height: 25vh;
     color: #e1cee2;
     background-color: #221127;
   }
