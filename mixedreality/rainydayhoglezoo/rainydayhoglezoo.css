@@ -77,49 +77,48 @@ Hot Red: #E11B19;
   #welcome-section {
     display: block;
     padding-top: 15vh;
-    min-height: 25vh;
+    min-height: 15vh;
     color: #F2D6A6;
     background-color: #3F0610;
   }
   
 
-  /* Pages */
-  .allpages {
-    display: flex;
-    flex-flow: row wrap;
-    flex-direction: row;
-    justify-content: center;
-    }
+  /* Pages Nav */
 
-
-  .pages {
+  .exhibits {
     margin: 0;
     padding: 0;
   }  
 
-  .pages ul {
-    text-align: left;
+  .exhibits ul {
+    text-align: center;
     position: fixed;
     width: 100%;
     background-color: #3F0610;
   }
   
-  .pages ul li {
+  .exhibits ul li {
     display: inline-block;
     padding: 20px;
     margin-left: 20px;
     color: #F2D6A6;
   }
   
-  .pages ul li a {
+  .exhibits ul li a {
     color: #F2D6A6;
     text-decoration: none;
   }
   
-  .pages ul li a:hover {
+  .exhibits ul li a:hover {
     color: #C05111;
   }
 
+  /* Pages Content */
+
+  .pagecontent{
+    margin: 0px;
+    padding: 0px;
+  }
 
   .project-pic {
     max-width: 300px;
@@ -127,7 +126,7 @@ Hot Red: #E11B19;
     padding-bottom: 0px;
   }
   .project-title {
-    padding-bottom: 25px;
+    padding: 25px;
   }
 
 
