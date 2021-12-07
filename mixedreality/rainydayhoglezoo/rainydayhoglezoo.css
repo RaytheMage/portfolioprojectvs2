@@ -76,8 +76,8 @@ Hot Red: #E11B19;
     display: block;
     padding-top: 45vh;
     min-height: 55vh;
-    color: #e1cee2;
-    background-color: #221127;
+    color: #F2D6A6;
+    background-color: #3F0610;
   }
   
   /* projects */
@@ -104,7 +104,7 @@ Hot Red: #E11B19;
   }
   
   .pages ul li a:hover {
-    color: #F2D6A6;
+    color: #C05111;
   }
 
 
