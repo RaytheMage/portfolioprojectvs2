@@ -92,7 +92,7 @@ Hot Red: #E11B19;
 
   .exhibits ul {
     text-align: center;
-    position: fixed;
+    position: top;
     width: 100%;
     background-color: #3F0610;
   }
@@ -116,7 +116,8 @@ Hot Red: #E11B19;
   /* Pages Content */
 
   .pagecontent{
-    margin: 0px;
+    justify-content: center;
+    margin: 0px ;
     padding: 0px;
   }
 
