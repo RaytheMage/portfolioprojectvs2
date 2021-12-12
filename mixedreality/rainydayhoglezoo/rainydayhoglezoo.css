@@ -33,7 +33,7 @@ Hot Red: #E11B19;
       "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     text-align: center;
     color: #3F0610;
-    background-color: #F2D6A6;
+    background-color: #C05111;
   }
   
   html {
@@ -113,6 +113,34 @@ Hot Red: #E11B19;
     color: #C05111;
   }
 
+  .vrcontent {
+    margin: 0;
+    padding: 0;
+  }  
+
+  .vrcontent ul {
+    text-align: center;
+    position: top;
+    width: 100%;
+    background-color: #F2D6A6;
+  }
+  
+  .vrcontent ul li {
+    display: inline-block;
+    padding: 20px;
+    margin-left: 20px;
+    color: #3F0610;
+  }
+  
+  .vrcontent ul li a {
+    color: #3F0610;
+    text-decoration: none;
+  }
+  
+  .vrcontent ul li a:hover {
+    color: #C05111;
+  }
+
   /* Pages Content */
 
   .pagecontent{
@@ -120,16 +148,6 @@ Hot Red: #E11B19;
     margin: 0px ;
     padding: 0px;
   }
-
-  .project-pic {
-    max-width: 300px;
-    padding: 25px;
-    padding-bottom: 0px;
-  }
-  .project-title {
-    padding: 25px;
-  }
-
 
   /*
   iframe {
