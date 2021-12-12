@@ -148,6 +148,10 @@ Hot Red: #E11B19;
     margin: 0px ;
     padding: 0px;
   }
+  
+  .pagecontent img {
+    max-width: 75%;
+  }
 
   /*
   iframe {
