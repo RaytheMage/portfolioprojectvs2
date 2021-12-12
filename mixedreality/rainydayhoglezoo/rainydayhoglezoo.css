@@ -81,8 +81,8 @@ Hot Red: #E11B19;
     color: #F2D6A6;
     background-color: #3F0610;
   }
-  
 
+  
   /* Pages Nav */
 
   .exhibits {
@@ -99,8 +99,8 @@ Hot Red: #E11B19;
   
   .exhibits ul li {
     display: inline-block;
-    padding: 20px;
-    margin-left: 20px;
+    padding: 15px;
+    margin-left: 15px;
     color: #F2D6A6;
   }
   
