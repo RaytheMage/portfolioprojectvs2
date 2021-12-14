@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<panorama appversion="6.1.13" apprev="18080" id="node1">
+  <input levelbias="0.400" levelingpitch="0" height="2997" levelingroll="0" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" levelbiashidpi="1.000" width="2997" leveltilesize="510" overlap="1">
+    <level preload="0" height="2997" width="2997" predecode="0"/>
+    <level preload="0" height="1498" width="1498" predecode="0"/>
+    <level preload="0" height="749" width="749" predecode="0"/>
+    <level preload="1" height="374" width="374" predecode="1"/>
+    <preview strip="1" color="0x808080"/>
+  </input>
+  <view fovmode="0" pannorth="94">
+    <start fov="70" projection="4" pan="0" tilt="0"/>
+    <flyin fov="170" projection="9" pan="0" tilt="-90"/>
+    <min fovpixel="2" pan="0" tilt="-90"/>
+    <max fov="120" scaletofit="1" pan="360" tilt="90" fovfisheye="360" fovstereographic="270"/>
+  </view>
+  <userdata source="" description="Memorial Square Park on Main Street in Spanish Fork Utah" datetime="" title="Spanish Fork Memorial Square" nodeid="node1" customnodeid="" copyright="" tags="zoo_panorama" latitude="40.74959528" heading="94" author="Cam Stephens" longitude="-111.81578256" comment="" info=""/>
+  <hotspots height="20" width="180" wordwrap="1">
+    <label borderalpha="1" backgroundalpha="1" textcolor="0x000000" height="20" bordercolor="0x000000" borderradius="1" width="180" border="1" background="1" enabled="1" textalpha="1" wordwrap="1" backgroundcolor="0xffffff"/>
+    <polystyle borderalpha="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" handcursor="1" backgroundcolor="0x0000ff"/>
+    <hotspot description="" url="images/jameshogle.jpg" title="James E.  Hogle,  JR." pan="-308.09" tilt="5.6" skinid="ht_image" id="Point01" target=""/>
+  </hotspots>
+  <media/>
+  <transition zoomfov="20" type="crossdissolve" zoomafteroutfov="20" zoomout="0" blendtime="1" zoomin="0" blendcolor="0x000000" enabled="1" softedge="0" zoomspeed="2" zoomafterinfov="90" zoomoutpause="1"/>
+  <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+  <control sensitivity="8" lockedkeyboard="0" lockedmouse="0" contextfullscreen="1" rubberband="0" invertcontrol="1" speedwheel="1" contextprojections="0" dblclickfullscreen="0" lockedkeyboardzoom="0" simulatemass="1" lockedwheel="0" contextvr="1" invertwheel="0"/>
+</panorama>
